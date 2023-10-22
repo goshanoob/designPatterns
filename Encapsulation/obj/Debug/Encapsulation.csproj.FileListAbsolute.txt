@@ -1,0 +1,7 @@
+C:\Users\Lora\Documents\ГОША\repos\designPatterns\Encapsulation\bin\Debug\Encapsulation.exe
+C:\Users\Lora\Documents\ГОША\repos\designPatterns\Encapsulation\bin\Debug\Encapsulation.pdb
+C:\Users\Lora\Documents\ГОША\repos\designPatterns\Encapsulation\obj\Debug\Encapsulation.csproj.AssemblyReference.cache
+C:\Users\Lora\Documents\ГОША\repos\designPatterns\Encapsulation\obj\Debug\Encapsulation.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lora\Documents\ГОША\repos\designPatterns\Encapsulation\obj\Debug\Encapsulation.csproj.CoreCompileInputs.cache
+C:\Users\Lora\Documents\ГОША\repos\designPatterns\Encapsulation\obj\Debug\Encapsulation.exe
+C:\Users\Lora\Documents\ГОША\repos\designPatterns\Encapsulation\obj\Debug\Encapsulation.pdb
