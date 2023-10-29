@@ -1,10 +1,14 @@
 ﻿using System;
+using System.Linq;
 
 namespace Observer
 {
     public class StatisticDisplay : IObserver
     {
         private WeatherData weatherData;
+        private float[] temperatureHistory = { };
+        private float[] humidityHistory = { };
+        private float[] pressureHistory = { };
 
         public StatisticDisplay(WeatherData weatherData)
         {
@@ -13,24 +17,34 @@ namespace Observer
 
         public void Update()
         {
-            Console.WriteLine($"Среднее значение температуры {GetAverageTemperature()}");
-            Console.WriteLine($"Среднее значение влажности {GetAverageHumitiry()}");
-            Console.WriteLine($"Среднее значение давления {GetAveragePressure()}");
+            var length = temperatureHistory.Length;
+            var tmpTemperatures = new float[length + 1];
+            var tmpHumidity = new float[length + 1];
+            var tmpPressure = new float[length + 1];
+
+            temperatureHistory.CopyTo(tmpTemperatures, 0);
+            humidityHistory.CopyTo(tmpHumidity, 0);
+            pressureHistory.CopyTo(tmpPressure, 0);
+
+            tmpTemperatures[length] = weatherData.GetTemperature();
+            tmpHumidity[length] = weatherData.GetTemperature();
+            tmpPressure[length] = weatherData.GetTemperature();
+
+            temperatureHistory = tmpTemperatures;
+            humidityHistory = tmpHumidity;
+            pressureHistory = tmpPressure;
         }
 
-        private float GetAverageTemperature()
+        public void Display()
         {
-            return WeatherData.GetRandomValue();
+            Console.WriteLine($"Среднее значение температуры {GetAverageValue(temperatureHistory)}");
+            Console.WriteLine($"Среднее значение влажности {GetAverageValue(humidityHistory)}");
+            Console.WriteLine($"Среднее значение давления {GetAverageValue(pressureHistory)}");
         }
 
-        private float GetAverageHumitiry()
+        private float GetAverageValue(float[] history)
         {
-            return WeatherData.GetRandomValue();
-        }
-
-        private float GetAveragePressure()
-        {
-            return WeatherData.GetRandomValue();
+            return history.Sum(item => item) / history.Length;
         }
     }
 }

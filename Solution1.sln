@@ -4,6 +4,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Encapsulation", "Encapsulat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "Encapsulation\Encapsulation.csproj", "{9AE85885-9816-44A1-8D48-F18CEC8EC068}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{6C79D301-A4B8-4B59-B349-FE0E0CB249CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,5 +16,9 @@ Global
 		{9AE85885-9816-44A1-8D48-F18CEC8EC068}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AE85885-9816-44A1-8D48-F18CEC8EC068}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AE85885-9816-44A1-8D48-F18CEC8EC068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C79D301-A4B8-4B59-B349-FE0E0CB249CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C79D301-A4B8-4B59-B349-FE0E0CB249CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C79D301-A4B8-4B59-B349-FE0E0CB249CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C79D301-A4B8-4B59-B349-FE0E0CB249CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

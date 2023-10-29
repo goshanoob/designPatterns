@@ -2,7 +2,7 @@
 
 namespace Observer
 {
-    public class HeatIndexDisplay : IObserver
+    public class HeatIndexDisplay : IObserver, IDisplay
     {
         private WeatherData weatherData;
 
@@ -10,10 +10,15 @@ namespace Observer
         {
             this.weatherData = weatherData;
         }
-        
+
         public void Update()
         {
-            Console.WriteLine("Тепература ощущается как " +
+            Display();
+        }
+
+        public void Display()
+        {
+            Console.WriteLine("Температура ощущается как " +
                               $"{GetHeatIndex(weatherData.GetTemperature(), weatherData.GetHumidity())}");
         }
 

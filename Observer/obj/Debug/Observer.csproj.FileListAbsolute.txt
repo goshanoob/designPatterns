@@ -5,3 +5,10 @@ G:\Repo\DesignPatterns\Observer\obj\Debug\Observer.csproj.SuggestedBindingRedire
 G:\Repo\DesignPatterns\Observer\obj\Debug\Observer.csproj.CoreCompileInputs.cache
 G:\Repo\DesignPatterns\Observer\obj\Debug\Observer.exe
 G:\Repo\DesignPatterns\Observer\obj\Debug\Observer.pdb
+C:\Users\Lora\Documents\ГОША\repos\designPatterns\Observer\bin\Debug\Observer.exe
+C:\Users\Lora\Documents\ГОША\repos\designPatterns\Observer\bin\Debug\Observer.pdb
+C:\Users\Lora\Documents\ГОША\repos\designPatterns\Observer\obj\Debug\Observer.csproj.AssemblyReference.cache
+C:\Users\Lora\Documents\ГОША\repos\designPatterns\Observer\obj\Debug\Observer.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lora\Documents\ГОША\repos\designPatterns\Observer\obj\Debug\Observer.csproj.CoreCompileInputs.cache
+C:\Users\Lora\Documents\ГОША\repos\designPatterns\Observer\obj\Debug\Observer.exe
+C:\Users\Lora\Documents\ГОША\repos\designPatterns\Observer\obj\Debug\Observer.pdb

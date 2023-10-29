@@ -30,8 +30,6 @@ namespace Observer
 
         #endregion
 
-        
-        
         public float GetTemperature()
         {
             return temperature;
@@ -54,11 +52,6 @@ namespace Observer
             this.pressure = pressure;
 
             NotifyObservers();
-        }
-        
-        public static float GetRandomValue()
-        {
-            return (float) new Random().NextDouble();
         }
     }
 }
