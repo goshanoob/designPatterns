@@ -1,0 +1,7 @@
+G:\Repo\DesignPatterns\Observer\bin\Debug\Observer.exe
+G:\Repo\DesignPatterns\Observer\bin\Debug\Observer.pdb
+G:\Repo\DesignPatterns\Observer\obj\Debug\Observer.csproj.AssemblyReference.cache
+G:\Repo\DesignPatterns\Observer\obj\Debug\Observer.csproj.SuggestedBindingRedirects.cache
+G:\Repo\DesignPatterns\Observer\obj\Debug\Observer.csproj.CoreCompileInputs.cache
+G:\Repo\DesignPatterns\Observer\obj\Debug\Observer.exe
+G:\Repo\DesignPatterns\Observer\obj\Debug\Observer.pdb
