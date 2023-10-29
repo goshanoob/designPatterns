@@ -8,6 +8,8 @@ namespace Encapsulation
         protected IQuackBehaviour quackBehaviour;
         
         protected string info = "Я утка.";
+        
+        public abstract void PrintInfo();
 
         public void Swim()
         {
@@ -33,7 +35,5 @@ namespace Encapsulation
         {
             this.quackBehaviour = quackBehaviour;
         }
-        
-        public abstract void PrintInfo();
     }
 }

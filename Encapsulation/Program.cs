@@ -8,6 +8,7 @@ namespace Encapsulation
         {
             var firstDuck = new MallardDuck();
             var secondDuck = new DecoyDuck();
+            var thirdDuck = new RedheadDuck();
             
             firstDuck.PrintInfo();
             firstDuck.Swim();
@@ -19,9 +20,12 @@ namespace Encapsulation
             secondDuck.PerformFly();
             secondDuck.PerformQuack();
             secondDuck.SetFlyBehaviour(new FlyWithWings());
-            secondDuck.SetQuackBehaviour(new QuackDuck());
+            secondDuck.SetQuackBehaviour(new CommonQuack());
             secondDuck.PerformFly();
             secondDuck.PerformQuack();
+            
+            thirdDuck.PrintInfo();
+            thirdDuck.PerformQuack();
         }
     }
 }

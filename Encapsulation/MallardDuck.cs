@@ -7,7 +7,7 @@ namespace Encapsulation
         public MallardDuck()
         {
             flyBehaviour = new FlyWithWings();
-            quackBehaviour = new QuackDuck();
+            quackBehaviour = new CommonQuack();
             info = "Я утка-кряква.";
         }
 

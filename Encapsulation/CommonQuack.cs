@@ -2,11 +2,11 @@
 
 namespace Encapsulation
 {
-    public class MuteQuack : IQuackBehaviour
+    public class CommonQuack : IQuackBehaviour
     {
         public void Quack()
         {
-            Console.WriteLine("Я не крякаяю.");
+            Console.WriteLine("Кряяя!");
         }
     }
 }
