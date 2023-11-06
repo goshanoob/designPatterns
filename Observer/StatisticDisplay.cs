@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Observer
 {
-    public class StatisticDisplay : IObserver
+    public class StatisticDisplay : IObserver, IDisplay
     {
         private WeatherData weatherData;
         private float[] temperatureHistory = { };
@@ -27,12 +27,14 @@ namespace Observer
             pressureHistory.CopyTo(tmpPressure, 0);
 
             tmpTemperatures[length] = weatherData.GetTemperature();
-            tmpHumidity[length] = weatherData.GetTemperature();
-            tmpPressure[length] = weatherData.GetTemperature();
+            tmpHumidity[length] = weatherData.GetHumidity();
+            tmpPressure[length] = weatherData.GetPressure();
 
             temperatureHistory = tmpTemperatures;
             humidityHistory = tmpHumidity;
             pressureHistory = tmpPressure;
+            
+            Display();
         }
 
         public void Display()
