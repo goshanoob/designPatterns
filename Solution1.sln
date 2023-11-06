@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "Encapsulat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{6C79D301-A4B8-4B59-B349-FE0E0CB249CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{525692CF-2578-46CA-8809-FCE02049C11D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,5 +22,9 @@ Global
 		{6C79D301-A4B8-4B59-B349-FE0E0CB249CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C79D301-A4B8-4B59-B349-FE0E0CB249CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C79D301-A4B8-4B59-B349-FE0E0CB249CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{525692CF-2578-46CA-8809-FCE02049C11D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{525692CF-2578-46CA-8809-FCE02049C11D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{525692CF-2578-46CA-8809-FCE02049C11D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{525692CF-2578-46CA-8809-FCE02049C11D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
